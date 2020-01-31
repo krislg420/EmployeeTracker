@@ -93,3 +93,17 @@ How do you deliver this? Here are some guidelines:
   * Update employee roles
 
 
+## GitHub Link
+
+https://github.com/krislg420/EmployeeTracker
+
+
+## update employee screenshot
+
+![1EE110C4-665F-4C6F-9891-5CAAA673A9C7_4_5005_c](https://user-images.githubusercontent.com/57952065/73509836-2144a380-43a6-11ea-85ef-321bc4008cd2.jpeg)
+
+## view tables
+
+![475E13BB-4366-4CC5-A3B0-A9CA9D1CE3C0_4_5005_c](https://user-images.githubusercontent.com/57952065/73509843-2a357500-43a6-11ea-9b6e-8ac37ad35181.jpeg)
+
+![8AAE5D49-8EA9-4474-9256-829CBA2ED0B1](https://user-images.githubusercontent.com/57952065/73509852-302b5600-43a6-11ea-9643-1c2e869924f7.jpeg)
