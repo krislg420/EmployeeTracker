@@ -5,6 +5,7 @@ const viewOptions = [
     "View Roles",
     "View Employees",
     "Update Employee",
+    "Add Employee",
     "exit"
 ];
 
@@ -23,6 +24,13 @@ const updateOptions = [
     "First Name",
     "Last Name",
     "Role",
+    "exit"
+];
+
+const addOptions = [
+    "Enter First Name",
+    "Enter Last Name",
+    "Enter Role",
     "exit"
 ];
 
@@ -54,6 +62,10 @@ function runSearch() {
                     updateEmployee();
 
                 case updateOptions[4]:
+                    connection.end();
+                    break
+
+                case addOptions[5]:
                     connection.end();
                     break
             }
@@ -108,4 +120,19 @@ const updateEmployee = () => {
            
     }
     runUpdateSearch();  
+}
+
+const addEmployee = () => {
+
+    function runAddEmployee() {
+        inquirer
+            .prompt({
+                name: "action",
+                type: "list",
+                message: "Please Enter New Employee Name",
+                choices: " "
+            })
+           
+    }
+    runAddEmployee();  
 }
